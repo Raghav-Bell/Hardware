@@ -1,0 +1,46 @@
+$date
+	Thu Mar 31 23:45:39 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module stimulus $end
+$var wire 4 ! op [3:0] $end
+$var reg 4 " ip [3:0] $end
+$scope module my $end
+$var wire 4 # IN [3:0] $end
+$var wire 4 $ OUT [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b1001 !
+b1001 $
+b1110 "
+b1110 #
+#10
+b1111 !
+b1111 $
+b1010 "
+b1010 #
+#15
+b11 !
+b11 $
+b10 "
+b10 #
+#20
+b1010 !
+b1010 $
+b1100 "
+b1100 #
+#25
