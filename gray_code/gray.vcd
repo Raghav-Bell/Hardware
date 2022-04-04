@@ -1,5 +1,5 @@
 $date
-	Thu Mar 31 23:45:39 2022
+	Mon Apr  4 23:02:07 2022
 $end
 $version
 	Icarus Verilog
@@ -8,11 +8,41 @@ $timescale
 	1s
 $end
 $scope module stimulus $end
-$var wire 4 ! op [3:0] $end
-$var reg 4 " ip [3:0] $end
+$var wire 16 ! op [15:0] $end
+$var reg 16 " ip [15:0] $end
 $scope module my $end
-$var wire 4 # IN [3:0] $end
-$var wire 4 $ OUT [3:0] $end
+$var wire 16 # IN [15:0] $end
+$var wire 16 $ OUT [15:0] $end
+$scope begin xorgb[0] $end
+$upscope $end
+$scope begin xorgb[1] $end
+$upscope $end
+$scope begin xorgb[2] $end
+$upscope $end
+$scope begin xorgb[3] $end
+$upscope $end
+$scope begin xorgb[4] $end
+$upscope $end
+$scope begin xorgb[5] $end
+$upscope $end
+$scope begin xorgb[6] $end
+$upscope $end
+$scope begin xorgb[7] $end
+$upscope $end
+$scope begin xorgb[8] $end
+$upscope $end
+$scope begin xorgb[9] $end
+$upscope $end
+$scope begin xorgb[10] $end
+$upscope $end
+$scope begin xorgb[11] $end
+$upscope $end
+$scope begin xorgb[12] $end
+$upscope $end
+$scope begin xorgb[13] $end
+$upscope $end
+$scope begin xorgb[14] $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -24,23 +54,13 @@ bx "
 bx !
 $end
 #5
-b1001 !
-b1001 $
-b1110 "
-b1110 #
+b1111111111111111 !
+b1111111111111111 $
+b1010101010101010 "
+b1010101010101010 #
 #10
-b1111 !
-b1111 $
-b1010 "
-b1010 #
-#15
-b11 !
-b11 $
-b10 "
-b10 #
-#20
-b1010 !
-b1010 $
-b1100 "
-b1100 #
+b100010001000 !
+b100010001000 $
+b111100001111 "
+b111100001111 #
 #25
