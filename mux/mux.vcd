@@ -1,5 +1,5 @@
 $date
-	Thu Mar 31 23:30:13 2022
+	Sun Apr 10 17:00:05 2022
 $end
 $version
 	Icarus Verilog
@@ -11,7 +11,7 @@ $scope module stimulus $end
 $var wire 1 ! o $end
 $var reg 16 " i [15:0] $end
 $var reg 4 # s [3:0] $end
-$scope module my_practice $end
+$scope module my_mux $end
 $var wire 16 $ i [15:0] $end
 $var wire 4 % sel [3:0] $end
 $var wire 1 ! out $end

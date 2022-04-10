@@ -2,7 +2,7 @@ module stimulus;
 reg [3:0]s  ;
 reg [15:0]i;
 wire o;
-practice my_practice(o ,s ,i);
+mux my_mux(o ,s ,i);
 
 
 initial 
