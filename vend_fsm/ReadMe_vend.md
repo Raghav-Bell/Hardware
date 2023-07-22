@@ -1,5 +1,5 @@
 <h2> Vending machine </h2>
-This is an implementation of a vending machine using FSM.
+This is an implementation of a vending machine using Finite State Machine (FSM).
 <h3>Machine definition:</h3>
 <ul>
   <li>Till you do not enter coin it will not start.</li>
@@ -17,17 +17,17 @@ This is an implementation of a vending machine using FSM.
   <li> 1+1+1+2=5</li>
   <li> 1+1+1+1+1=5</li>
 </ol>
-</br>Si implements these partitions where Si represents state with total i ₹.</p>
+</br>S<sub>i</sub> implements these partitions where S<sub>i</sub> represents state with total i ₹.</p>
 <p></br>Following is state table:
 
 | PS    | NS |    | output |   |
 |-------|----|----|--------|---|
 | Input | 1  | 0  | 1      | 0 |
-| S0    | S2 | S1 | 0      | 0 |
-| S1    | S3 | S2 | 0      | 0 |
-| S2    | S4 | S3 | 0      | 0 |
-| S3    | S5 | S4 | 1      | 0 |
-| S4    | S1 | S5 | 1      | 1 |
-| S5    | S2 | S1 | 1      | 1 |
+| S<sub>0</sub>   | S<sub>2</sub> | S<sub>1</sub> | 0      | 0 |
+| S<sub>1</sub>   | S<sub>3</sub> | S<sub>2</sub> | 0      | 0 |
+| S<sub>2</sub>   | S<sub>4</sub> | S<sub>3</sub> | 0      | 0 |
+| S<sub>3</sub>   | S<sub>5</sub> | S<sub>4</sub> | 1      | 0 |
+| S<sub>4</sub>   | S<sub>1</sub> | S<sub>5</sub> | 1      | 1 |
+| S<sub>5</sub>   | S<sub>2</sub> | S<sub>1</sub> | 1      | 1 |
 
 </br> PS: Present state , NS: Next state </p>
